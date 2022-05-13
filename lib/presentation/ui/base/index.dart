@@ -57,9 +57,9 @@ class _BaseState extends State<Base> with TickerProviderStateMixin{
                   const Padding(
                     padding: EdgeInsets.only(top: 30, left: 25),
                     child: Text(
-                      'Find Your \n Chow Now',
+                      'Find Your \nChow Now',
                       style: TextStyle(
-                        fontWeight: FontWeight.bold,
+                        fontFamily: "Bold",
                         fontSize: Sizes.dimen_40,
                         height: 1.3
                       ),

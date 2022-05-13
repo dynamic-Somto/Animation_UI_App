@@ -43,7 +43,7 @@ class _TagState extends State<Tag> {
               widget.text + ' ',
               style: const TextStyle(
                 fontSize: Sizes.dimen_13,
-                fontWeight: FontWeight.w600
+                fontWeight: FontWeight.w500
               ),
             ),
             const Icon(Icons.cancel, color: Colors.white, size: Sizes.dimen_16,),

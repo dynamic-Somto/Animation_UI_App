@@ -24,11 +24,11 @@ class _IndexState extends State<Index> {
               hintStyle: TextStyle(),
             ),
             scaffoldBackgroundColor: Colors.white,
-            fontFamily: "Gilroy-Regular",
+            fontFamily: "Regular",
           ),
           navigatorKey: getItInstance<NavigationServiceImpl>().navigationKey1,
           debugShowCheckedModeBanner: false,
-          title: 'Lag Genie',
+          title: 'Pay4Me Interview',
           initialRoute: Routes.init,
           onGenerateRoute: (settings) => CustomRouter.generateRoutes(settings),
     );
