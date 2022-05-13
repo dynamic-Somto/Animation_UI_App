@@ -17,7 +17,7 @@ class _BaseState extends State<Base> with TickerProviderStateMixin{
   void initState() {
     _animationController = AnimationController(vsync: this);
     _pageTransitionController=AnimationController(vsync: this,
-        duration: const Duration(milliseconds: 1000), reverseDuration: const Duration(milliseconds: 1000));
+        duration: const Duration(milliseconds: 800), reverseDuration: const Duration(milliseconds: 800));
     _animationController.value=0.5;
     super.initState();
   }

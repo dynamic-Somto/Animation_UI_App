@@ -3,7 +3,6 @@ import 'package:pay4me/data/constants/assets.dart';
 import 'package:pay4me/data/constants/route_constants.dart';
 import 'package:pay4me/data/services/navigation/index.dart';
 import 'package:pay4me/dependency_injection/get_it.dart';
-import 'package:pay4me/presentation/components/short_bottom_sheet_bar.dart';
 import '../../../../data/constants/sizes_constants.dart';
 import '../../../components/all_foods_grid.dart';
 
