@@ -20,8 +20,6 @@ class DraggableBottomSheet extends AnimatedWidget {
                 initialChildSize: isFoodsPage? 0.5:0.95,
                 minChildSize:  isFoodsPage? 0.5:0.95,
                 maxChildSize: 0.95,
-                snap: true,
-                snapSizes: const [0.5, 0.95],
                 builder: (BuildContext context,
                     ScrollController scrollController) {
                   return Stack(
@@ -47,7 +45,7 @@ class DraggableBottomSheet extends AnimatedWidget {
                       Positioned(
                         bottom: -200,
                         child: SlideTransition(
-                          position: Tween<Offset>(begin: Offset.zero, end: const Offset(2,-7)).animate(CurvedAnimation(
+                          position: Tween<Offset>(begin: Offset.zero, end: const Offset(1.3,-7)).animate(CurvedAnimation(
                               parent: pageTransitionController,
                               curve: Curves.easeOut,
                               reverseCurve: Curves.easeIn

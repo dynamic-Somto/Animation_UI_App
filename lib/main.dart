@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'dependency_injection/get_it.dart';
-import 'index.dart';
+import 'presentation/index.dart';
 
 void main() async {
   init();

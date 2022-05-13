@@ -3,9 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:pay4me/presentation/router.dart';
 
-import 'data/constants/route_constants.dart';
-import 'data/services/navigation/index.dart';
-import 'dependency_injection/get_it.dart';
+import '../data/constants/route_constants.dart';
+import '../data/services/navigation/index.dart';
+import '../dependency_injection/get_it.dart';
 
 class Index extends StatefulWidget {
   Index({Key? key}) : super(key: key);
